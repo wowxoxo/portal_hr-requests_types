@@ -1,0 +1,23 @@
+{
+  "name": "@iit/portal_hr-requests_types",
+  "version": "0.1.0",
+  "description": "Type declarations for portal hr requests projects",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wowxoxo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowxoxo/portal_hr-requests_types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wowxoxo/portal_hr-requests_types/issues"
+  },
+  "homepage": "https://github.com/wowxoxo/portal_hr-requests_types#readme",
+  "registry": "https://registry.npmjs.org/",
+  "dependencies": {
+    "@iit/portal_hr-requests_types": "^0.1.0"
+  }
+}
