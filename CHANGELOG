@@ -12,3 +12,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - first draws
+
+## [0.1.1] - 2022-05-06
+
+### Added
+
+- ownerId for CreatedHRRequest type

@@ -56,6 +56,7 @@ declare namespace PortalHRRequestsTypes {
 
   type CreatedHRRequest = {
     requestId?: string;
+    ownerId?: string
     dateCreated?: string;
     answerableHR?: string;
     status: RequestStatus;
