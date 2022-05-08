@@ -48,15 +48,15 @@ declare namespace PortalHRRequestsTypes {
   export type FinalModel = FirstStep & SecondStep & ThirdStep & FourthStep;
 
   export type RequestStatus =
-    | "OPEN"
-    | "ACCEPTED"
-    | "SIGNED"
-    | "EXECUTED"
-    | "TERMINATED";
+    | "Открыта"
+    | "Принята"
+    | "Согласована"
+    | "Выполнена"
+    | "Отклонена";
 
   type CreatedHRRequest = {
     requestId?: string;
-    ownerId?: string
+    ownerId?: string;
     dateCreated?: string;
     answerableHR?: string;
     status: RequestStatus;

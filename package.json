@@ -1,6 +1,6 @@
 {
   "name": "@iit/portal_hr-requests_types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Type declarations for portal hr requests projects",
   "types": "index.d.ts",
   "scripts": {
@@ -18,6 +18,6 @@
   "homepage": "https://github.com/wowxoxo/portal_hr-requests_types#readme",
   "registry": "https://registry.npmjs.org/",
   "dependencies": {
-    "@iit/portal_hr-requests_types": "^0.1.1"
+    "@iit/portal_hr-requests_types": "^0.1.2"
   }
 }
