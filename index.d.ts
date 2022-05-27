@@ -58,6 +58,7 @@ declare namespace PortalHRRequestsTypes {
     requestId?: string;
     dateCreated?: string;
     answerableHR?: string;
+    answerableHRId: string | null;
     status: RequestStatus;
     accessionDate: string;
     testAssignmentFileNameOnServer?: string;
