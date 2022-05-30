@@ -4,7 +4,7 @@ export as namespace PortalHRRequestsTypes;
 declare namespace PortalHRRequestsTypes {
   export type FirstStep = {
     owner: string;
-    ownerId: string;
+    ownerId: number;
     title: string;
     position: string;
     project: string;
@@ -58,7 +58,7 @@ declare namespace PortalHRRequestsTypes {
     requestId?: string;
     dateCreated?: string;
     answerableHR?: string;
-    answerableHRId: string | null;
+    answerableHRId: number | null;
     status: RequestStatus;
     accessionDate: string;
     testAssignmentFileNameOnServer?: string;
