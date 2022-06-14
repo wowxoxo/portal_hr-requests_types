@@ -37,7 +37,7 @@ declare namespace PortalHRRequestsTypes {
   };
 
   export type FourthStep = {
-    remoteWork: string;
+    scheduleMode: string;
     schedule: string;
     probationPeriod: string;
     salary: string;
@@ -55,6 +55,7 @@ declare namespace PortalHRRequestsTypes {
     | "Отклонена";
 
   type CreatedHRRequest = {
+    uniqId?: number;
     requestId?: string;
     dateCreated?: string;
     answerableHR?: string;
