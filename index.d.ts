@@ -5,6 +5,7 @@ declare namespace PortalHRRequestsTypes {
   export type FirstStep = {
     owner: string;
     ownerId: number;
+    ownerEmail: string;
     title: string;
     position: string;
     project: string;
